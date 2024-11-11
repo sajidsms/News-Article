@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #f7f7f7;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.header-left{
+    border-style: double;
+    
+}
+.header-left, .header-right {
+    width: 25%;
+    text-align: left;
+    padding: 5px;
+}
+
+.header-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Garamond', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    margin-bottom: 20px;
+    border-bottom: 3px solid;
+}
+
+/* Main Headline */
+.main-headline h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    background-color: lightgray;
+}
+
+/* Flex container for the stories */
+.story-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.story-row1{
+    margin-bottom: 5px;
+    border-bottom: 3px solid;
+}
+
+.story-column {
+    width: 30%; 
+    padding: 0 10px;
+
+}
+
+.image-row2{
+    border-right: 3px solid;
+}
+.story-image img {
+    width: 100%;
+    height: auto;
+   
+}
+
+/* Styling the quote box */
+.quote-box {
+    background-color: lightgray;
+    padding: 10px;
+    font-style: italic;
+    border-left: 3px solid black;
+    margin-top: 20px;
+}
+
+.third-row-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+    font-size: 0.9rem;
+    width: 100%;
+}
+
+
+.footer p {
+    margin: 5px 0;
+}
+
+
+.footer span {
+    font-weight: bold;
+    color: #00aced;
+}
+
+
+/* Social Icons Styling */
+.social-icons {
+display: flex;
+justify-content: center;
+gap: 20px; /* Space between icons */
+margin-top: 10px; /* Space above icons */
+background-color: transparent; /* Ensure transparency */
+width: 100%; /* Ensure the container spans full width */
+}
+
+
+
+
+.social-icon {
+    color: #B3B3B3; /* Default icon color */
+    font-size: 24px; /* Icon size */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+
+.social-icon:hover {
+    color: #1DB954; /* Change color on hover */
+}
+
+
+/* Optional: individual icon colors on hover */
+.social-icon.github:hover {
+    color: #4078c0; /* GitHub color */
+}
+
+
+.social-icon.instagram:hover {
+    color: #e1306c; /* Instagram color */
+}
+
+
+.social-icon.linkedin:hover {
+    color: #0077b5; /* LinkedIn color */
+}
